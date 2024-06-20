@@ -29,7 +29,10 @@ SECRET_KEY = 'django-insecure-bsyyln1h@&4vld1fm-tgqlr7w87enj0_8f9x&yq_g4#(k30o15
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '8000-rikkiebobby-mytodo-3fgkzbi86is.ws.codeinstitute-ide.net'
+    '.heroku.com',
+]
 
 
 # Application definition
@@ -42,7 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base',
-    '.heroku.com',
 ]
 
 MIDDLEWARE = [
