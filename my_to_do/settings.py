@@ -30,7 +30,8 @@ SECRET_KEY = 'django-insecure-bsyyln1h@&4vld1fm-tgqlr7w87enj0_8f9x&yq_g4#(k30o15
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-rikkiebobby-mytodo-3fgkzbi86is.ws.codeinstitute-ide.net'
+    '8000-rikkiebobby-mytodo-3fgkzbi86is.ws.codeinstitute-ide.net',
+    '8000-rikkiebobby-mytodo-3fgkzbi86is.ws.codeinstitute-ide.net',
     '.heroku.com',
 ]
 
@@ -109,6 +110,10 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-rikkiebobby-mytodo-3fgkzbi86is.ws.codeinstitute-ide.net',
 ]
 
 
